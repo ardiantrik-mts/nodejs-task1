@@ -1,0 +1,17 @@
+[
+    {
+        "id" : "1",
+        "name" : "Ice Tea",
+        "description" : "Tea water with ice"
+    },
+    {
+        "id" : "2",
+        "name" : "Orange Juice",
+        "description" : "Squashed orange extract with ice"
+    },
+    {
+        "id" : "3",
+        "name" : "Nuka Cola",
+        "description" : "You already know that this is a cola isn't it?"
+    }
+]

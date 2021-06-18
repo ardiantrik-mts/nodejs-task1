@@ -16,8 +16,8 @@ http.createServer(function (req, res) {
         //     res.end(`<h1>Hello World</h1>`)
         // }
         console.log(req.url);
-        if (req.url === '/') {
-            fs.readFile('foodData.json', function(err, data) {
+        if (req.url === '/food' || req.url === '/beverage') {
+            fs.readFile(__dirname+req.url+'.json', function(err, data) {
                 res.writeHead(200, {'Content-Type': 'application/json'});
                 res.end(data);
                 // return res.end();

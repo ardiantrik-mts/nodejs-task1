@@ -16,13 +16,13 @@
     },
     {
         "id" : "4",
-        "name" : "Ice Tea",
-        "description" : "Tea water with ice"
+        "name" : "Sandwich",
+        "description" : "Some vege and meat sandwiched by bread"
     },
     {
         "id" : "5",
-        "name" : "Orange Juice",
-        "description" : "Squashed orange extract with ice"
+        "name" : "Burger",
+        "description" : "Same as sandwich but different kind of bread"
     },
     {
         "id" : "6",
