@@ -1,5 +1,6 @@
 var http = require('http');
 var fs = require('fs');
+const qs = require('querystring') 
 
 //create a server object:
 http.createServer(function (req, res) {
@@ -18,12 +19,19 @@ http.createServer(function (req, res) {
         console.log(req.url);
         if (req.url === '/food' || req.url === '/beverage') {
             fs.readFile(__dirname+req.url+'.json', function(err, data) {
+                
+                // let jsonData = data.toString('utf8');
+                // console.log(jsonData);
+                // let obj1 = jsonData.find(({ id }) => id == '1');
+                // console.log(obj1);
                 res.writeHead(200, {'Content-Type': 'application/json'});
                 res.end(data);
-                // return res.end();
+                return res.end();
             });
         }else{
-            res.end(`{"message": "${http.STATUS_CODES[404]}"}`)
+            res.end(`{
+                "message": "${http.STATUS_CODES[404]}"
+            }`);
         }
     } else {
         res.end(`{"message": "${http.STATUS_CODES[405]}"}`)
