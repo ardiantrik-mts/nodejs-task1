@@ -1,0 +1,32 @@
+[
+    {
+        "id" : "1",
+        "name" : "Gado-gado",
+        "description" : "javanese boiled vege with peanut sauce"
+    },
+    {
+        "id" : "2",
+        "name" : "Lotek",
+        "description" : "Same as gado-gado but different vege"
+    },
+    {
+        "id" : "3",
+        "name" : "Pecel",
+        "description" : "Same as gado-gado and lotek but more different vege"
+    },
+    {
+        "id" : "4",
+        "name" : "Ice Tea",
+        "description" : "Tea water with ice"
+    },
+    {
+        "id" : "5",
+        "name" : "Orange Juice",
+        "description" : "Squashed orange extract with ice"
+    },
+    {
+        "id" : "6",
+        "name" : "Pizza",
+        "description" : "Round shaped flat bread with special sauce and some stuff"
+    }
+]
